@@ -1,0 +1,57 @@
+.sectionImgesSet{
+    height: 430px;
+    width: 300px;
+}
+.sectionImgesSet img{
+    height: 100%;
+    width: 100%;
+}
+.postionHome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%,-50%);
+}
+
+@media (min-width: 0px) and (max-width: 525px) {
+    .sectionImgesSet{
+    height: 100%;
+    width: 100%;
+}
+.customImgesHeghtSmall{
+    height: 400px;
+    width: 100%;
+}
+.customImgesHeghtSmall img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+
+}
+.postionHome{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+}
+@media (min-width: 526px) and (max-width: 767px) {
+.postionHome{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+}
+
+ @media (min-width: 1441px) {
+    .customImgesHeghtSmall{
+        height: 100%;
+        width: 100vw;
+    }
+    .customImgesHeghtSmall img{
+        height: 100%;
+        width: 100%;
+    }
+ }
